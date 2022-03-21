@@ -17,7 +17,6 @@ textarea {
 
 table {
   width: 100%;
-  /* border: black solid 1px; */
 }
 
 input {
@@ -45,8 +44,16 @@ th:nth-child(1) {
   border-bottom: dotted black 1px;
 }
 
-
 /* Class Selectors */
+
+.container {
+  background: white;
+  color: #1b1b1b;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  padding: 50px;
+  margin-bottom: 50px;
+}
 
 .jumbotron {
   text-align: center;
